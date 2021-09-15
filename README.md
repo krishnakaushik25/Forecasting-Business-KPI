@@ -37,8 +37,7 @@ and unzip the file.
 11. Freeze the model - Cktp have 3 files, data, index, and meta, and these three files have to be combined into one file and this is called freezing of the model.
 
 12. From the models/research/object_detection folder opens the
-export_inference_graph.py. Perform the command as shown in the video. This
-generates the frozen_inference_graph.pb which will be used for further inferences.
+export_inference_graph.py. Perform the command to generate the frozen_inference_graph.pb which will be used for further inferences.
 
 13. The frozen_inference_graph.pb, the labels.txt, and the test_video.mp4 are the final inputs on basis of which we will measure the KPI metrics.
 
